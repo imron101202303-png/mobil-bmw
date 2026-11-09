@@ -79,6 +79,35 @@ nav a:hover {
   transition: .3s;
 
 }
+  /* Animasi saat website dibuka */
+@keyframes masuk {
+  from {
+    opacity: 0;
+    transform: translateY(35px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.hero > div {
+  animation: masuk 1.2s ease both;
+}
+nav {
+  animation: masuk 0.8s ease both;
+}
+.hero h1 {
+  animation: masuk 1s ease both;
+}
+.hero p {
+  animation: masuk 1.3s ease both;
+}
+.hero .btn {
+  animation: masuk 1.6s ease both;
+}
+.car {
+  animation: masuk 1.2s ease both;
+}
 
 .search input{
    flex: 1;
